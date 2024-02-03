@@ -44,7 +44,7 @@ const Home = () => {
   return (
     <section>
       <div className="container px-5 py-24 mx-auto">
-        <div className='text-center text-3xl'>
+        <div className='text-center text-2xl'>
           {
             isAuthenticated ? <p>Welcome {user.username}</p> : <p>Please login to view your notes</p>
           }

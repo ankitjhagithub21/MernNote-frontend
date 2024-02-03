@@ -10,6 +10,7 @@ import Register from './pages/Register';
 import AddNote from './pages/AddNote';
 import { Toaster } from 'react-hot-toast';
 import "./App.css"
+import Footer from './components/Footer';
 const App = () => {
   const token = useSelector((state) => state.auth.token);
   const apiKey = import.meta.env.VITE_API_KEY
@@ -47,6 +48,7 @@ const App = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/add-note" element={<AddNote />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 };

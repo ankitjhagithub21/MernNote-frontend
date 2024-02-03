@@ -23,7 +23,7 @@ const Navbar = () => {
     <header>
       <nav className='flex justify-center lg:justify-between items-center p-5 container mx-auto flex-wrap gap-5'>
         <div className='flex items-center gap-2'>
-          <img src="/vite.svg" alt="logo" />
+          <img src="/logo.png" alt="logo" width={40}/>
           <span className='font-medium text-xl'>Mern Note</span>
         </div>
         <ul className='flex gap-5 items-center'>
